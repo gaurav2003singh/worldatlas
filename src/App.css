@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 :root{
@@ -24,7 +24,7 @@ h1,h2,h3,h4,h5{
 }
 
 p,li,a,button{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     
     letter-spacing: 0.1rem;
     line-height: 1.6;
@@ -63,10 +63,12 @@ button{
     border-width: 0.1rem;
     border-style: solid;
     margin-top: 1.6rem;
-    /* -webkit-border-radius:1.5rem;
-    -moz-border-radius:1.5rem;
+    
+     -webkit-border-radius:1.5rem;
+   -moz-border-radius:1.5rem;
     -ms-border-radius:1.5rem;
-    -o-border-radius:1.5rem; */
+    -o-border-radius:1.5rem;
+    border-radius: 1.5rem;
 }
     
     
@@ -164,20 +166,24 @@ nav ul{
   }
   
   /* hero section  */
-  
+   .hero-content{
+    box-sizing:content-box;
+    width: 400px;
+   }
   .hero-section .container {
     padding: 3.2rem;
-    margin: 9rem auto;
+    margin: 5rem auto;
     gap: 6.4rem;
   }
   
   .paragraph {
-    margin: 3.2rem 0;
+    margin: 3rem 0;
+    
   }
   
   .heading-xl {
     font-family: inherit;
-    font-size: clamp(5.2rem, 6vw, 4.241rem);
+    font-size: clamp(5rem, 6vw, 4.241rem);
     font-weight: 700;
     line-height: 1.15;
     letter-spacing: -1px;
@@ -185,8 +191,16 @@ nav ul{
   
   .hero-image {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
+    
+    
+  }
+
+  .hero-image img{
+    height: 65vh;
+    width: 40vw;
+    margin-right: 20px;
   }
   
   .container .banner-image {
