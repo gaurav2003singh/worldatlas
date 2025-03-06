@@ -1,9 +1,9 @@
-[
+   [
     {
       "id": 1,
       "countryName": "World",
       "capital": "No Capital",
-      "population": "Null",
+      "population": null,
       "interestingFact": "There are 195 countries in the world today, including 193 United Nations member states and 2 observer states."
     },
     {
@@ -56,4 +56,5 @@
       "interestingFact": "The Great Wall of China is visible from space on rare occasions."
     }
   ]
+
   
