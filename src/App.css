@@ -249,7 +249,7 @@ nav ul{
   .card {
     max-width: 55rem;
     border: 0;
-    width: 100%;
+    width: 85%;
     margin-inline: auto;
   }
   
@@ -404,15 +404,15 @@ nav ul{
   .country-section {
     margin: 6.4rem auto 9.6rem auto;
     & .grid {
-      gap: 3.2rem;
-      max-width: 132rem;
+      gap: 3rem;
+      max-width: 130rem;
       margin: auto;
     }
   
     & img {
       width: 100%;
       max-width: 50rem;
-      height: 16rem;
+      height: 15rem;
     }
   }
   
@@ -428,7 +428,7 @@ nav ul{
       }
   
       & img {
-        width: 100%;
+        width: 80%;
         max-width: 30rem;
         margin-bottom: 0;
         height: auto;
@@ -441,7 +441,7 @@ nav ul{
     & .infoContainer {
       display: flex;
       flex-direction: column;
-      gap: 2.4rem;
+      gap: .5rem;
     }
   
     & .country-card-backBtn {
