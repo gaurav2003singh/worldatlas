@@ -29,7 +29,7 @@ export const Contact = () => {
           <textarea
             className="form-control"
             rows="7"
-            placeholder="Enter your name"
+            placeholder="Enter your message"
             name="message"
             required
             autoComplete="false"
